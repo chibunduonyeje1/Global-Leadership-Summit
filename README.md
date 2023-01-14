@@ -39,7 +39,7 @@
 > It is built with flexbox, css grid,  media query for responsive web design and JavaScript Dom manipulation for menubar.
 >It have two pages, the Home page and the about page
 
-**Global Leadership Summit]** is a webpage with menu bar, hero section, featured speakers section, about section and About Page.
+**Global Leadership Summit]** is a webpage with menu bar, hero section, featured speakers section, and About Page.
 
 ## 🛠 Built With <a name="built-with"></a>
 
