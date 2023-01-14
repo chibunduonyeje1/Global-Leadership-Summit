@@ -52,13 +52,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Responsive Pages
-> Mobile Menu interactions using JS
-> Load Speakers Data Using JavaScript
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Mobile Menu]**
+- **[Lnteractions using JS]**
+- **[ Load Speakers Data Using JavaScript]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
