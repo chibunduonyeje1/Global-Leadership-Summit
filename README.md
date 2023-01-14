@@ -64,8 +64,10 @@
 
 <!-- LIVE DEMO -->
 
-## 🚀 Video Presentation link <a name="Video Presentation link"></a>
+## 🚀 Live Demo <a name="live-demo"></a>
+- [Live Demo Link]( https://chibunduonyeje1.github.io/Global-Leadership-Summit/)
 
+## 🚀 Video Presentation link <a name="Video Presentation link"></a>
 - [Live Demo Link](https://www.loom.com/share/dcd06582bc6540608b4ae446cab6718d/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
