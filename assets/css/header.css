@@ -41,7 +41,7 @@ header .tab-1-wrapper {
 }
 
 header .tab-2 {
-  background-color: #fff;
+  background-image: url(../images/main-images/hero-section-background2.jpg);
   box-shadow: 1px 13px 27px -5px #d3d3d3;
 }
 
@@ -50,8 +50,8 @@ header .tab-2-wrapper {
   flex-direction: column;
   max-width: 90%;
   margin: auto;
-  background-color: #fff;
   padding: 5px;
+  background-color: transparent;
 }
 
 .tab-2-wrapper .nav {
@@ -145,6 +145,11 @@ header .tab-2-wrapper {
 
   .nav .logo {
     display: block;
+  }
+
+  header .tab-2 {
+    background-image: none;
+    background-color: #fff;
   }
 
   header .tab-2-wrapper {

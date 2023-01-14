@@ -26,7 +26,7 @@ body {
 .hero-section-wrapper h3 {
   font-size: 18px;
   color: #ec5242;
-  font-weight: 500;
+  font-weight: 600;
   padding: 0 5px;
   margin: 0 5px;
   text-align: center;
@@ -37,7 +37,7 @@ body {
   padding: 5px;
   margin: 0 5px;
   font-weight: 900;
-  background: linear-gradient(to left, #ec5242, red, #ec5242);
+  background: linear-gradient(to left, #ec5242, #272131, #ec5242);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -47,11 +47,11 @@ body {
 .hero-section-wrapper .announcement {
   max-width: 400px;
   border: 2px solid #fff;
-  padding: 10px;
+  padding: 20px;
   margin: 20px 10px;
-  font-size: 14px;
-  background-color: #d3d3d3;
-  opacity: 0.9;
+  font-size: 16px;
+  background-color: #fff;
+  opacity: 0.97;
 }
 
 .hero-section-wrapper h4 {
@@ -59,13 +59,13 @@ body {
   font-weight: 700;
   padding: 5px;
   margin: 10px 5px;
-  color: #fff;
+  color: #272131;
 }
 
 .hero-section-wrapper .venue {
   font-size: 18px;
   font-weight: 400;
-  color: #fff;
+  color: #272131;
   padding: 5px;
   margin: 0 5px;
 }
@@ -274,6 +274,7 @@ footer {
   .hero-section-wrapper h3 {
     font-size: 22px;
     text-align: left;
+    font-weight: 600;
   }
 
   .hero-section-wrapper h1 {
