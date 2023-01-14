@@ -4,14 +4,14 @@ body {
 
 .hero-section {
   width: 100%;
-  background-image: url(../images/main-images/hero-section-background.jpg);
+  background-image: url(../images/main-images/hero-section-background2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .hero-section-wrapper {
-  background-color: #272131;
-  opacity: 0.94;
+  background-color: transparent;
+  opacity: 0.99;
 }
 
 .hero-section-wrapper div {
@@ -54,14 +54,6 @@ body {
 
 #announcement-desktop {
   display: none;
-}
-
-.hero-section-wrapper .venue {
-  font-size: 18px;
-  font-weight: 400;
-  color: #d3d3d3;
-  padding: 5px;
-  margin: 0 5px;
 }
 
 .contact {

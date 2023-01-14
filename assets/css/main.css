@@ -4,14 +4,14 @@ body {
 
 .hero-section {
   width: 100%;
-  background-image: url(../images/main-images/hero-section-background.jpg);
+  background-image: url(../images/main-images/hero-section-background2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .hero-section-wrapper {
-  background-color: #272131;
-  opacity: 0.94;
+  background-color: transparent;
+  opacity: 1;
 }
 
 .hero-section-wrapper div {
@@ -29,6 +29,7 @@ body {
   font-weight: 500;
   padding: 0 5px;
   margin: 0 5px;
+  text-align: center;
 }
 
 .hero-section-wrapper h1 {
@@ -36,10 +37,11 @@ body {
   padding: 5px;
   margin: 0 5px;
   font-weight: 900;
-  background: linear-gradient(to left, #ec5242, #d3d3d3, #ec5242);
+  background: linear-gradient(to left, #ec5242, red, #ec5242);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-align: center;
 }
 
 .hero-section-wrapper .announcement {
@@ -57,13 +59,13 @@ body {
   font-weight: 700;
   padding: 5px;
   margin: 10px 5px;
-  color: #d3d3d3;
+  color: #fff;
 }
 
 .hero-section-wrapper .venue {
   font-size: 18px;
   font-weight: 400;
-  color: #d3d3d3;
+  color: #fff;
   padding: 5px;
   margin: 0 5px;
 }
@@ -271,10 +273,12 @@ footer {
 
   .hero-section-wrapper h3 {
     font-size: 22px;
+    text-align: left;
   }
 
   .hero-section-wrapper h1 {
     font-size: 60px;
+    text-align: left;
   }
 
   .hero-section-wrapper .announcement {
