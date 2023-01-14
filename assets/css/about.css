@@ -43,7 +43,7 @@ body {
 
 .hero-section-wrapper .announcement {
   max-width: 900px;
-  border: 2px solid #fff;
+  border: 2px solid #d3d3d3;
   padding: 20px;
   margin: 20px 10px;
   font-size: 14px;
@@ -51,6 +51,7 @@ body {
   color: #272131;
   text-align: center;
   opacity: 0.98;
+  line-height: 25px;
 }
 
 #announcement-desktop {
@@ -58,16 +59,15 @@ body {
 }
 
 .contact {
-  font-size: 16px;
+  font-size: 17px;
   color: #272131;
   text-align: center;
   padding: 5px;
-  font-weight: bolder;
 }
 
 .hero-email {
   font-weight: bolder;
-  font-size: 16px;
+  font-size: 17px;
   color: #272131;
   text-align: center;
   padding: 5px;
