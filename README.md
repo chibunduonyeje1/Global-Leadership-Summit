@@ -53,8 +53,8 @@
 ### Key Features <a name="key-features"></a>
 
 - **[Mobile Menu]**
-- **[Lnteractions using JS]**
-- **[ Load Speakers Data Using JavaScript]**
+- **[Interactions using JS]**
+- **[Load Speakers Data Using JavaScript]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
