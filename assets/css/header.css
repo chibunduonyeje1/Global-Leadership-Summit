@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+header .tab-1 {
+  display: none;
+  background-color: black;
+}
+
+header .tab-1-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  max-width: 90%;
+  margin: auto;
+  background-color: black;
+  height: 35px;
+}
+
+.tab-1-wrapper a {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  padding: 0 12px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.navbar li a {
+  color: #fff;
+}
+
+.tab-1-wrapper a:hover {
+  color: #ec5242;
+}
+
+header .tab-2 {
+  background-image: url(../images/main-images/hero-section-background2.jpg);
+  box-shadow: 1px 13px 27px -5px #d3d3d3;
+}
+
+header .tab-2-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+  margin: auto;
+  padding: 5px;
+  background-color: transparent;
+}
+
+.tab-2-wrapper .nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+
+.nav .hamburger {
+  font-size: 25px;
+  justify-self: flex-start;
+  cursor: pointer;
+  width: 35%;
+}
+
+.nav .logo {
+  width: 65%;
+  display: none;
+}
+
+.tab-2-wrapper .navbar {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  background: #272a31;
+  z-index: 2;
+  opacity: 0.99;
+  height: 100vh;
+  width: 90%;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 2% 3%;
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 90%;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 90%;
+  }
+}
+
+.navbar li {
+  padding: 5px;
+  margin: 10px 5px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.navbar li a:hover {
+  color: #ec5242;
+}
+
+.navbar li:first-child {
+  align-self: flex-end;
+  cursor: pointer;
+  font-size: 25px;
+  border-bottom: none;
+}
+
+.navbar li:last-child {
+  border-bottom: none;
+}
+
+.navbar li:last-child a {
+  border: 5px solid #ec5242;
+  padding: 5px;
+}
+
+.navbar li:last-child a:hover {
+  background-color: #ec5242;
+  color: #fff;
+  box-shadow: 2px 2px 2px #272a31;
+}
+
+@media screen and (min-width: 768px) {
+  header .tab-1 {
+    display: block;
+  }
+
+  .nav .logo {
+    display: block;
+  }
+
+  header .tab-2 {
+    background-image: none;
+    background-color: #fff;
+  }
+
+  header .tab-2-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav .hamburger {
+    display: none;
+  }
+
+  .tab-2-wrapper .navbar {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+    background-color: #fff;
+    padding: 0%;
+    position: relative;
+    animation-duration: none;
+    animation-name: none;
+  }
+
+  .navbar li {
+    margin: 0 0 0 5px;
+  }
+
+  .navbar li:first-child {
+    display: none;
+  }
+
+  .navbar li a {
+    color: #272a31;
+  }
+
+  .active {
+    border-bottom: 2px solid #ec5242;
+    padding: 5px;
+  }
+}
